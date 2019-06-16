@@ -1,3 +1,14 @@
+/*首页导航条设置*/
+
+/*底边距*/
 .navbar0 {
     margin-bottom: 0px !important;
+}
+/*无边框*/
+.noborder{
+    border:none !important;
+}
+/*导航条a标签颜色*/
+.nava{
+    color: #FFFFFF !important;
 }

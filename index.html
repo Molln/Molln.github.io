@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" style="height: 100%;">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,13 +18,14 @@
     <![endif]-->
 
     <!-- 引入自定义的css与js -->
-    <link href="css/nav.css" rel="stylesheet">
-    <link href="css/icon.css" rel="stylesheet">
     <link href="css/a.css" rel="stylesheet">
+    <link href="css/icon.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="background" style="height: 80%;">
 
-    <nav class="navbar navbar-default navbar-inverse navbar0">
+    <nav class="navbar navbar-default navbar0 noborder" style="background: none">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -34,27 +35,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://molln.github.io">Molln 个人主页</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="html/sponsor.html">赞助</a></li>
+            <li><a href="html/sponsor.html" class="nava">赞助</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, guest!</h1>
-        <p>你好，这是Molln的个人主页！</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    <div class="container-fluid" style="height: 100%;">
+      <div class="row text-center" style="height:60%;margin-top: 5%;">
+        <h2 class="colorwhite">你好，这里是Molln的个人主页</h2>
+        <h4 class="colorwhite">欢迎访问</h4>
+        <button type="button" class="btn btn-default btn-lg" style="margin-top: 5%;">了解更多</button>
       </div>
-    </div>
 
-    <div class="row">
+      <div class="row" style="height: 20%;">
         <div class="col-md-12 text-center">
           <a href="https://github.com/Molln" class="noline">
             <img src="image/icon_github.png"  class="img-rounded size40" alt="Github" >
@@ -62,19 +61,19 @@
           <a href="mailto:519843007@qq.com" class="noline">
             <img src="image/icon_mail.png"    class="img-rounded size40" alt="邮箱" >
           </a>
-          <a href="https://jq.qq.com/?_wv=1027&k=5RNVSs0" class="noline">
+          <a href="https://jq.qq.com/?_wv=1027&k=5rzV0fV" class="noline">
             <img src="image/icon_qq.png"      class="img-rounded size40" alt="QQ" >
           </a>
-          <a href="https://weibo.com/gt5198/home" class="noline">
+          <a href="https://weibo.com/u/5587619400" class="noline">
             <img src="image/icon_weibo.png"   class="img-rounded size40" alt="微博" >
           </a>
         </div>
+      </div>
+
+      <div class="row">
+        <p class="text-center colorwhite"><b>&copy; 2019 Molln</b></p>
+      </div>
     </div>
-    <br>
-
-
-
-	  <p class="text-center"><b>&copy; 2019 Molln</b></p>
 
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
